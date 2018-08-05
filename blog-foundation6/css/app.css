@@ -1,0 +1,48 @@
+body{
+  background-image: url(../imagenes/fondo.jpg);
+  background-attachment: fixed;
+}
+.container{
+  max-width: 1024px;
+  display: block;
+  margin: auto;
+  background-color: gray;
+  opacity: 0.9;
+}
+.derecha{
+  text-align: right;
+  color: brown;
+  font-style:italic;
+}
+h1,h5{
+  color: red;
+  font-style: oblique;
+}
+.izq{
+  border-right: 1px solid white;
+}
+hr,img{
+  border: 1px solid white;
+}
+.uno>li{
+border:2px solid pink;
+}
+.callout{
+  opacity: 1;
+}
+.linea{
+  border: 1px solid gray;
+}
+.bot{
+  text-align: right;
+}
+.cuatro{
+  float: left;
+}
+.comentario{
+  display: flex;
+  align-items:center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 2px;
+}
