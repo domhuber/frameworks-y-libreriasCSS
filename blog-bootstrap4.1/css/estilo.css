@@ -1,0 +1,43 @@
+body{
+  background-color: maroon;
+}
+@media (min-width: 768px){
+.navbar-nav {
+margin: 0 auto;
+display: table;
+table-layout: auto;
+float: none;
+width: 100%;
+text-align: center;
+}
+.navbar-nav>li {
+display: table-cell;
+float: none;
+text-align: center;
+}
+}
+.img-santana{
+  width: 50%;
+  margin-top: 10px;
+  float: right;
+}
+.figgure-caption{
+float: left;
+}
+.img-lenon{
+  padding-right: 10px;
+  width: 30%;
+  margin-top: 10px;
+  float: left;
+}
+@media (max-width: 576px) {
+  .img-lenon,.img-santana{
+    width: 100%;
+  }
+  a:hover{
+    color: white;
+  }
+  .col-md-9{
+  
+  }
+}
