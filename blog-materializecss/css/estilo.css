@@ -1,0 +1,39 @@
+
+body{
+  background-image:url(../img/relieve.jpg);
+  background-attachment: fixed;
+}
+img{
+  width: 100%;
+}
+.logo{
+  border-radius: 15px;
+}
+.empujar{
+  margin-top: 20px;
+}
+.marco-central>img{
+  border: 1px solid gray;
+  height: 550px;
+}
+.marco-derecho>img{
+  height: 272px;
+}
+.marco-izq>img{
+  height: 272px;
+}
+.perfil{
+  width: 50%;
+  padding: 2px;
+}
+.borde,.bordear{
+  padding: 10px;
+}
+.mov-izq{
+  float: left;
+  width: 30%;
+  margin:10px;
+}
+.alinear{
+  text-align: justify;
+}
